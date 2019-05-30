@@ -6,18 +6,18 @@ function idCard(){
     var phone = parseInt(document.getElementById('phoneNumber').value);
     var FullName = first + " " + last;
 
-    document.getElementByID('postFullName').innerHTML = FullName;
-    document.getElementByID('postAddress').innerHTML = address;
+    document.getElementById('postFullName').innerHTML = FullName;
+    document.getElementById('postAddress').innerHTML = address;
 
     var numberArray = []
     numberArray.push(age,phone)
 
     for(var i=0; i < numberArray.length; i++){
-        if (numberArray[i]),100){
+        if (numberArray[i])<100){
             document.getElementById("postAge").innerHTML = "Age: " + numberArray[i];  
         }else if(numberArray[i]>=100){
             document.getElementById("postPhoneNumber").innerHTML ="Phone Number: " + numberArray[i];
         }
     }
-    
+
   }
