@@ -18,6 +18,6 @@ function idCard(){
         }else if(numberArray[i]>=100){
             document.getElementById("postPhoneNumber").innerHTML ="Phone Number: " + numberArray[i];
         }
-
     }
+    
   }
