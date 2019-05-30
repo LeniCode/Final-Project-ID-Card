@@ -1,0 +1,40 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #D2E7FB
+}
+
+body {
+  text-align:center;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+img {
+
+width: 90px;
+
+height: 90px;
+
+float: left;
+
+}
+
+#idCard {
+
+border: 5px solid black;
+
+border-radius: 25px;
+
+background: #FCDCEB;
+
+height: 14em;
+
+width: 25em;
+
+padding: 10px;
+
+margin: 0 auto;
+
+}
