@@ -22,6 +22,7 @@ float: left;
 }
 
 #idCard {
+text-align:left;
 
 border: 5px solid black;
 
@@ -38,3 +39,8 @@ padding: 10px;
 margin: 0 auto;
 
 }
+
+#postFullName {
+text-align:center;
+font-size: 2em;
+)
